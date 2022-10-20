@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'charlevoix-medium';
+    src: url('charlevoixpro-medium-webfont.woff2') format('woff2'),
+         url('charlevoixpro-medium-webfont.woff') format('woff');
+    font-weight: medium;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'charlevoix';
+    src: url('charlevoixpro-regular-webfont.woff2') format('woff2'),
+         url('charlevoixpro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

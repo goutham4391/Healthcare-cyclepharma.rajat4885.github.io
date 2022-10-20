@@ -1,0 +1,1208 @@
+/**/
+/*Theme Name: Avada Child*/
+/*Description: Child theme for Avada theme*/
+/*Author: ThemeFusion*/
+/*Author URI: https://theme-fusion.com*/
+/*Template: Avada*/
+/*Version: 1.2.0*/
+/*Text Domain:  Avada*/
+/**/
+
+html, body, h1, h2, h3, h4, h5, p, .fusion-button-text {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+}
+
+h6 {
+	font-family: 'Montserrat', arial, helvetica, sans-serif !important;
+}
+
+/* Below taken from Avada parent theme output - to account for empty font-family */
+#wrapper .fusion-tabs-widget .tab-holder .tabs li a,
+#wrapper .fusion-accordian .panel-heading a,
+#wrapper .fusion-accordian .panel-title,
+#wrapper .fusion-carousel-title,
+#wrapper .fusion-content-widget-area h4,
+#wrapper .fusion-flip-box .flip-box-heading-back,
+#wrapper .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-title,
+#wrapper .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-title a,
+#wrapper .fusion-megamenu-title,
+#wrapper .fusion-modal h4,
+#wrapper .fusion-person .person-desc .person-author .person-author-wrapper,
+#wrapper .fusion-tabs .nav-tabs li .fusion-tab-heading, .popover .popover-title,
+#wrapper .post-content h4,
+#wrapper .project-content .project-info h4,
+#wrapper .share-box h4,
+#wrapper table th {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+}
+
+
+
+.fusion-main-menu, .fusion-main-menu a {
+	font-family: 'Montserrat', arial, helvetica, sans-serif !important;
+	font-weight: 500 !important;
+    /*letter-spacing:1px !important;*/
+}
+
+.fusion-button-text {
+	text-transform: none;
+}
+
+.fusion-header-v1 {
+    background-color: #fff;
+}
+
+/*.fusion-megamenu-holder{border-top: 1px solid black !important;}*/
+
+/*.secondnav { opacity:0; position:fixed !important; top:65px; right:0; transition:all 0.3s ease-out; width:calc(100% + 30px); z-index:10; }*/
+/*.secondnav.active { opacity:1; }*/
+/*.secondnav table { border-color:#FFF !important; }*/
+/*.secondnav th { background:none !important; border-color:#FFF !important; }*/
+
+/*.fusion-logo-link { position:absolute; top:50%; transform:translateY(-50%); }*/
+
+#wrapper .tfs-slider .slide-content-container {
+    top: 70%;
+}
+
+#wrapper .content-box-column-1 h6 {
+	margin-top: 0;
+}
+
+#wrapper .fusion-sticky-shadow .fusion-main-menu > ul > li > a,
+#wrapper .fusion-header.fusion-sticky-shadow,
+#wrapper .fusion-sticky-shadow .fusion-header-sticky-height,
+#wrapper .fusion-sticky-shadow .fusion-logo-link img {
+    /*height: 55px;*/
+}
+
+#wrapper .fusion-sticky-shadow .fusion-logo-link img {
+    /*max-height: 55px;*/
+}
+
+@media only screen and (min-width: 1200px) {
+    #wrapper .fusion-sticky-shadow .fusion-logo-link img {
+        /*max-height: 78px !important;*/
+    }
+}
+
+#wrapper .fusion-is-sticky .fusion-main-menu > ul > li > a {
+    font-size: 14px;
+}
+
+#wrapper .fusion-standard-logo,
+#wrapper .fusion-logo-link img {
+    /*padding: 5px;*/
+}
+
+#wrapper .fusion-logo {
+    /*margin: 0;*/
+}
+
+#wrapper .fusion-sticky-shadow .fusion-main-menu > ul > li > a {
+    /*line-height: 55px;*/
+}
+
+
+/* Header Color updates July 2020 */
+
+#wrapper .fusion-header-v1,
+#wrapper .fusion-header-wrapper.fusion-is-sticky .fusion-header-v1 .fusion-header {
+    /*background-color: #1ccfc9;*/
+}
+
+#wrapper .fusion-header-v1 .fusion-header-backface {
+    background-color: #1ccfc9;
+}
+
+/* Force Sticky Header to not grow in height when window resized */
+/* Menu breakpoint (1200) will change depending on menu contents */
+@media only screen and (min-width: 1200px) {
+    #wrapper .fusion-header-v1 .fusion-header,
+    #wrapper .fusion-header-v1 .fusion-header-backface,
+    #wrapper .fusion-header-wrapper.fusion-is-sticky .fusion-header-v1 .fusion-header {
+        /*max-height: 80px;*/
+        max-height: 120px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    #wrapper .fusion-header-wrapper .fusion-header,
+    #wrapper .fusion-header-wrapper .fusion-secondary-main-menu {
+        /*background-color: #1ccfc9;*/
+    }
+    
+}
+
+
+#wrapper .fusion-main-menu .sub-menu {
+    left: -20px;
+}
+
+
+
+#wrapper .fusion-mobile-menu-icons a::before,
+#wrapper .fusion-mobile-nav-item .fusion-open-submenu {
+    color: #000000;
+}
+
+#wrapper .fusion-mobile-menu-design-modern .fusion-mobile-nav-holder > ul,
+#wrapper .fusion-mobile-nav-holder > ul {
+    border-color: #1ccfc9;
+}
+
+#wrapper .fusion-mobile-nav-item > a {
+    background-color: #1ccfc9;
+    border-color: #1ccfc9;
+    /*color: rgba(255,255,255,0.7);*/
+    color: rgba(0,0,0,0.7);
+    
+    text-transform: uppercase;
+}
+
+#wrapper .fusion-mobile-nav-item.fusion-mobile-current-nav-item > a {
+    /*color: #ffffff;*/
+    color: rgba(0,0,0,1);
+}
+
+#wrapper .sub-menu .fusion-mobile-nav-item a {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: rgb(30, 37, 43);
+}
+
+#wrapper .fusion-main-menu > ul > li > a {
+    /*color: rgba(255,255,255,0.7);*/
+    color: #005d89;
+    -webkit-font-smoothing: auto;
+}
+
+#wrapper .fusion-main-menu > ul > li > a:hover {
+    /*color: rgba(255,255,255,1);*/
+    color: #1ecdc9;
+}
+
+#wrapper .fusion-main-menu .current-menu-ancestor > a,
+#wrapper .fusion-main-menu .current-menu-item > a,
+#wrapper .fusion-main-menu .current-menu-parent > a,
+#wrapper .fusion-main-menu .current_page_item > a {
+    /*color: rgba(255,255,255,1);*/
+    color: #1ecdc9;
+}
+
+
+/* Sub menu hover fix - Theme option Header Responsive Breakpoint 1200 */
+
+@media only screen and (min-width: 1200px) {
+    
+    .fusion-megamenu-wrapper {
+    
+    }
+
+    /* Add invisible element for hover extra vertical space */
+    .fusion-megamenu-wrapper::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 200px;
+        background-color: transparent;
+        /*border-bottom: 1px solid red;*/
+    }
+
+}
+    
+/*#wrapper .fusion-column-tablecell > h1,*/
+/*#wrapper .fusion-column-tablecell > h2,*/
+/*#wrapper .fusion-column-tablecell > h3,*/
+/*#wrapper .fusion-column-tablecell > h4,*/
+/*#wrapper .fusion-column-tablecell > h5,*/
+#wrapper .fusion-column-tablecell > h6 {
+    margin: 0;
+    /*padding: 20px;*/
+    /*background: white;*/
+}
+
+/*#wrapper .highlight.-white {*/
+	/*background-color: rgba(255, 255, 255, .9);*/
+	/*padding: 10%;*/
+/*}*/
+
+#wrapper .fusion-carousel .fusion-carousel-nav .fusion-nav-prev,
+#wrapper .fusion-carousel .fusion-carousel-nav .fusion-nav-next {
+    background-color: white;
+}
+
+#wrapper .fusion-carousel .fusion-carousel-nav .fusion-nav-prev:before,
+#wrapper .fusion-carousel .fusion-carousel-nav .fusion-nav-next:before {
+    color: black;
+    font-size: 3em;
+}
+
+#wrapper .arrow {
+    font-size: 3em;
+}
+
+#wrapper .arrow.-right {
+    float: right;
+}
+
+#wrapper .-orange {
+    color: #FF5b35;
+}
+
+#wrapper .-green {
+    color: #2cab62;
+}
+
+#wrapper .-violet {
+    color: #413b90;
+}
+
+#wrapper .-blue {
+    color: #0082ca;
+}
+
+#wrapper .highlight.-white > span,
+#wrapper .highlight-small-white,
+#wrapper .fusion-one-full.fusion-layout-column .fusion-column-table {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+#wrapper .fusion-one-full.fusion-layout-column .fusion-column-table {
+    padding: 40px;
+}
+
+#wrapper .highlight.-white > span,
+#wrapper .highlight-small-white {
+    margin: 10px 0 0;
+    padding: 0 20px;
+    display: inline-block;
+}
+
+#wrapper .newsletter-field {
+    width: 300px;
+    float: right;
+}
+
+#wrapper .newsletter-field::-webkit-input-placeholder {
+    color: #1ccfc9;
+}
+
+#wrapper .newsletter-field:-moz-placeholder { /* Firefox 18- */
+    color: #1ccfc9;
+}
+
+#wrapper .newsletter-field::-moz-placeholder {  /* Firefox 19+ */
+    color: #1ccfc9;
+}
+
+#wrapper .newsletter-field:-ms-input-placeholder {
+    color: #1ccfc9;
+}
+
+#wrapper .mc4wp-response {
+    clear: both;
+    padding-top: 15px;
+    padding-right: 45px;
+    text-align: right;
+}
+
+#wrapper .highlight-small-white {
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+/*#wrapper .fusion-column-table {*/
+    /*padding: 20px;*/
+/*}*/
+
+#wrapper .call-to-action .fusion-column-table {
+    padding: 50px;
+}
+
+/*#wrapper .fusion-carousel-item img {*/
+    /*position: relative;*/
+    /*top: 50%;*/
+    /*transform: translateY(-50%);*/
+/*}*/
+
+
+#wrapper .fusion-footer-widget-area {
+    background-color: #3ec0c0;
+}
+
+#wrapper .fusion-footer .textwidget h6 {
+    margin-bottom: 0 !important;
+}
+
+#wrapper .fusion-footer-widget-area a:hover {
+    color: #ffffff;
+}
+
+/* Footer Widget Menu */
+#wrapper .fusion-widget-area .widget_nav_menu {
+    margin-top: 5px;
+}
+
+#wrapper .fusion-widget-area .widget_nav_menu li {
+    border: none;
+}
+
+#wrapper .fusion-widget-area .widget_nav_menu li a {
+    color: rgba(0,0,0,0.7);
+    text-transform: uppercase;
+}
+
+#wrapper .fusion-widget-area .widget_nav_menu li a:hover,
+#wrapper .fusion-widget-area .widget_nav_menu li a::before,
+#wrapper .fusion-widget-area .widget_nav_menu li.current_page_item a {
+    color: rgba(0,0,0,1);
+}
+
+#wrapper .fusion-widget-area .social_links {
+    margin-top: 1.25em;
+}
+
+
+#wrapper .fusion-megamenu-widgets-container .fusion-button-wrapper {
+    display: block;
+    text-align: center;
+    float: none;
+    margin: 0;
+}
+
+#wrapper .fusion-megamenu-widgets-container .fusion-button-wrapper .fusion-button {
+    display: inline-block;
+}
+
+#wrapper .fusion-megamenu-title {
+    text-align: center;
+}
+
+/*.main-title {*/
+	/*font-size:32px !important;*/
+/*}*/
+
+@media(min-width:1024px) {
+	.main-title {
+		font-size:46px !important;
+	}
+
+	/*.highlight.-white {*/
+		/*background-color:rgba(255,255,255,0);*/
+	/*}*/
+	/*.highlight.-white span {*/
+	    /*background-color:rgba(255,255,255,0.9);*/
+	    /*padding-left: 20px;*/
+	    /*padding-right: 20px;*/
+	    /*display: inline-block;*/
+	    /*margin-bottom:10px;*/
+	/*}*/
+
+	/*.highlight.-white span:last-of-type {*/
+		/*margin-bottom:0;*/
+	/*}*/
+
+    .highlight-pill-blue {
+        background-color:rgba(0,130,202,0.9);
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 50px;
+        border-radius: 50px;
+        display: inline-block;
+        margin-bottom:30px;
+    }
+
+  .fusion-title .highlight-pill-blue {
+        padding: 10px 30px 10px 30px !important;
+    }
+
+    .highlight-pill-orange {
+        background-color:rgba(238,119,0,0.9);
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 50px;
+        border-radius: 50px;
+        display: inline-block;
+        margin-bottom:30px;
+    }
+
+    .fusion-title .highlight-pill-orange {
+        padding: 10px 30px 10px 30px !important;
+    }
+
+    .highlight-pill-green {
+        background-color:rgba(44,191,98,0.9);
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 50px;
+        border-radius: 50px;
+        display: inline-block;
+        margin-bottom:30px;
+    }
+
+    .fusion-title .highlight-pill-green {
+        padding: 10px 30px 10px 30px !important;
+    }
+
+    .highlight-pill-violet {
+        background-color:rgba(65,59,144,0.9);
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 50px;
+        border-radius: 50px;
+        display: inline-block;
+        margin-bottom:30px;
+    }
+
+    .fusion-title .highlight-pill-violet {
+        padding: 10px 30px 10px 30px !important;
+    }
+
+    .highlight-small-white {
+        background-color:rgba(255,255,255,0.9);
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 50px;
+        display: inline-block;
+        margin-bottom:30px;
+    }
+
+    .fusion-title .highlight-small-white {
+        padding: 10px 30px 10px 30px !important;
+    }
+
+}
+
+
+
+
+/* News boxes but now they are Careers*/
+
+#wrapper .news-box .fusion-column-table,
+#wrapper .news-box.fusion-one-full.fusion-layout-column .fusion-column-table,
+#wrapper .call-to-action.fusion-one-full.fusion-layout-column .fusion-column-table,
+.fusion-rollover-content,
+.news-box .fusion-column-content {
+ 	/*background-color:rgba(255,255,255,0.9);*/
+    background-color:rgba(28,207,201,0.9);
+	padding: 20px 40px 20px 40px !important;
+    /*display: block-inline;*/
+}
+
+#wrapper .news-box .fusion-column-tablecell .fusion-button-wrapper,
+#wrapper .call-to-action .fusion-column-tablecell .fusion-button-wrapper {
+    margin-bottom: 20px;
+}
+
+#wrapper .news-box .fusion-column-tablecell h6,
+#wrapper .news-box .fusion-column-tablecell h6 span,
+#wrapper .call-to-action .fusion-column-tablecell h6,
+#wrapper .call-to-action .fusion-column-tablecell h6 span,
+.news-box .fusion-column-content-centered h6,
+.news-box .fusion-column-content-centered h6 span {
+    color: #ffffff !important;
+}
+
+#wrapper .news-box .fusion-column-tablecell a,
+#wrapper .call-to-action .fusion-column-tablecell a {
+    color: #1e252b;
+}
+
+
+
+.news-box .fusion-equal-height-columns .fusion-column-tablecell {
+    vertical-align: none;
+}
+
+
+/* TEST -----------*/
+
+.news-box .fusion-column-table {
+    line-height: normal;
+}
+
+.news-box .post-content p {
+    margin-bottom: 0px !important;
+}
+
+
+
+/* News Posts */
+
+.fusion-post-grid .fusion-rollover {
+    opacity:1;
+    -webkit-transform: translate(-0%, 0%) !important;
+    transform: translate(-0%, 0%) !important;
+     /*Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,000000+100&0.3+0,0.29+100*/
+    background: none !important;
+    padding:5%;
+    text-align:left;
+}
+
+.fusion-rollover-title {
+    margin-bottom: 10px !important;
+}
+
+.fusion-post-grid .fusion-rollover-content {
+	width:99% !important;
+	padding:30px !important;
+}
+
+.fusion-rollover .fusion-rollover-content h4 a{
+	font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+	color:#1E252B !important;
+	display: block;
+}
+
+.fusion-rollover-link {
+	display: none;
+}
+
+.fusion-post-grid .fusion-rollover:hover {
+    background:rgba(0,0,0,0.7);
+}
+
+.fusion-post-grid .fusion-post-content-wrapper{
+    display:none;
+}
+
+.fusion-post-grid .fusion-rollover-content{
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 10px;
+    height: auto;
+    width: 60%;
+    padding-bottom: 10%;
+    text-align: left;
+}
+
+.fusion-header-content-3-wrapper h3{
+    width:50%;
+    text-transform:capitalize;
+    font-size:37px;
+}
+.image .image-extras .image-extras-content h3 a {
+    font-size: 24px!important;
+}
+
+
+.fusion-rollover-content h4 a{
+    font-size:28px !important;
+}
+
+
+.fusion-post-grid .fusion-rollover-content .fusion-rollover-categories a {
+    text-transform:uppercase;
+    font-size:15px;
+    font-family: 'Montserrat', arial, helvetica, sans-serif !important;
+    letter-spacing:1px !important;
+}
+
+.category-news .fusion-rollover-content .fusion-rollover-categories a{
+    color:#1ccfc9 !important;
+}
+
+.category-resource .fusion-rollover-content .fusion-rollover-categories a{
+	color:#ff5b35 !important;
+}
+
+.category-product-1 .fusion-rollover-content .fusion-rollover-categories a{
+	color:#0082ca !important;
+}
+
+.fusion-main-menu > ul > li > a, .side-nav li a{
+    text-transform:uppercase !important;
+    /*letter-spacing:2px !important;*/
+}
+
+
+
+
+
+/* Call to action - PRODUCTS */
+
+/*.cta-products .fusion-column-table, .fusion-rollover-content{*/
+    /*background-color:rgba(255,255,255,0.9);*/
+    /*padding: 160px 80px 80px 80px;*/
+    /*display: inline-block;*/
+/*}*/
+
+/* Call to action - BUSINESS AREAS */
+
+/*.cta-business-area .fusion-column-table, .fusion-rollover-content{*/
+    /*background-color:rgba(255,255,255,0.9);*/
+    /*padding: 80px 80px 80px 80px;*/
+    /*display: inline-block;*/
+/*}*/
+
+/* News Page Load more */
+
+.fusion-load-more-button.fusion-blog-button {
+    background-color: #1CCFC9 !important;
+    border-radius: 50px;
+    color:#fff !important;
+
+}
+
+.fusion-load-more-button.fusion-blog-button:hover {
+    background-color: #ff5b35 !important;
+}
+
+.fusion-blog-infinite .fusion-load-more-button {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.fusion-load-more-button {
+    font-family: 'Roboto' !important;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform:capitalize;
+}
+
+.page-id-19122 #wrapper .fusion-slider-container.fusion-slider-19122.full-width-slider-container,
+.page-id-19122 #wrapper .tfs-slider.flexslider.main-flex.full-width-slider {
+    height: auto !important;
+}
+
+.page-id-19122 #wrapper .tfs-slider.flexslider.main-flex.full-width-slider .slides .flex-active-slide {
+    height: 300px !important;
+}
+
+#wrapper .person-shortcode-image-wrapper {
+    float: right;
+}
+
+#wrapper .fusion-person .person-desc {
+    padding: 40px 0 !important;
+}
+
+#wrapper .fusion-person .person-desc .person-author {
+    width: auto;
+}
+
+#wrapper .person-content.fusion-clearfix {
+    clear: none;
+}
+
+.single-post #wrapper .entry-title {
+    display: none;
+}
+
+.single-post .single-navigation.clearfix {
+    margin-bottom: 0;
+}
+
+/* Separator */
+
+.fusion-sep-clear {
+    height: 0px;
+}
+
+/* Team name boxes */
+
+.team-name {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Latest News text */
+
+.avada-container .columns h4 {
+    font-size: 20px !important; 
+    font-color: #1e252b !important;
+}
+
+.caption with-bg .fusion-title-sc-wrapper { 
+    background-color:rgba(255,255,255,0.85) !important;
+}
+
+/* News page thumbs */
+
+.fusion-recent-posts.avada-container.layout-thumbnails-on-side.layout-columns-2 li.flex-active-slide a {
+    display: inline-block;
+    min-height: 116px;
+}
+
+
+/* Pipeline Table */
+
+.pipeline-table-container {
+    
+}
+
+@media only screen and (max-width:1024px) {
+    .pipeline-table-container {
+        overflow: scroll;
+    }
+}
+
+.pipeline-table table {
+    min-width: 1024px;
+    max-width: 1280px;
+    margin: 0 auto;
+    border-collapse:collapse;
+}
+
+.pipeline-table table th {
+    font-family: inherit;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #1e252b;
+    vertical-align: bottom;
+    padding: 20px 10px 10px 10px;
+    border-right: 1px solid #ffffff;
+}
+
+.pipeline-table table th:first-child {
+    border-top-left-radius: 20px;
+    padding-left: 20px;
+}
+
+.pipeline-table table th:last-child {
+    border-top-right-radius: 20px;
+    padding-right: 20px;
+}
+
+.pipeline-table table tr td {
+    width: 20%;
+    vertical-align: top;
+    padding: 10px 10px 20px 10px;
+    border-right: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.pipeline-table table tr td:first-child {
+    padding-left: 20px;
+    border-left: 1px solid #D9D9D9;
+}
+
+.pipeline-table table tr td:last-child {
+    padding-right: 20px;
+}
+
+.pipeline-table table tr:last-child td:first-child {
+    border-bottom-left-radius: 20px;
+}
+
+.pipeline-table table tr:last-child td:last-child {
+    border-bottom-right-radius: 20px;
+}
+
+/* Image Pipeline Table */
+
+.pipeline-container {
+    
+}
+
+@media only screen and (max-width:800px) {
+    #wrapper #pipeline_container {
+
+    }
+}
+
+#pipeline_scroll_msg {
+    
+}
+
+@media only screen and (min-width:1285px) {
+    #pipeline_scroll_msg {
+        display: none !important;
+    }
+}
+
+
+/* Patient Advocacy Groups and Partner Summaries */
+
+.p-group-col .fusion-column-wrapper,
+.partner-col .fusion-column-wrapper {
+    background-size: contain !important;
+}
+
+@media only screen and (min-width: 800px) {
+    .p-group-col .fusion-column-wrapper,
+    .partner-col .fusion-column-wrapper {
+        border-right: none !important;
+    }
+}
+
+
+/* BG image conatin */
+
+.bg-contain .fusion-column-wrapper {
+    background-size: contain !important;
+}
+
+
+.center-el {
+	text-align: center;
+}
+
+
+.center-el {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.kiss-recent-posts {
+
+}
+
+.kisstable {
+    display:table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+
+.kiss-custom a, .kiss-custom a:hover {
+    color: #1ccfc9;
+}
+
+.kiss-custom .fusion-flexslider {
+    width:20%;
+    display: table-cell;
+}
+
+.kiss-custom .fusion-flexslider img {
+    padding-right:20px;
+}
+
+.kiss-custom .recent-posts-content {
+    width:80%;
+    display: table-cell;
+    vertical-align: middle;
+    table-layout: fixed;
+}
+
+.kiss-custom .recent-posts-content .entry-title {
+    width:70%;
+    padding:0  0 0 0;
+    margin: 0 0 0 0;
+    font-size: 24px !important;
+}
+
+.kiss-custom .recent-posts-content .entry-title, .kiss-custom .recent-posts-content .meta {
+    display:table-cell;
+    vertical-align: middle;
+}
+
+.kiss-custom .recent-posts-content .meta {
+    width:15%;
+    padding:0 10px;
+    margin:0;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight:bold;
+}
+
+.kiss-custom.fusion-column {
+    margin-top: 35px;
+    float:left !important;
+}
+
+.kiss-custom.fusion-column hr {
+        margin-bottom: 35px;
+}
+
+@media only screen and (max-device-width: 860px) {
+
+    .kiss-custom .recent-posts-content .entry-title {
+        width:70%;
+    }
+
+    .kiss-custom .recent-posts-content .meta {
+        width:15%;
+    }
+
+
+}
+
+@media only screen and (max-device-width: 640px) {
+
+  .kiss-custom .recent-posts-content .meta {
+    width:auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float:left;
+    padding:0 5px 0 0;
+  }
+
+    .kiss-custom .recent-posts-content .entry-title {
+        float:none;
+        padding: 0;
+        margin:0;
+        width:100%;
+        clear:both;
+        display: block;
+    }
+
+    .kiss-custom .fusion-flexslider {
+        width:30%;
+        display:block;
+        float:left;
+    }
+
+    .kiss-custom .recent-posts-content {
+        float:left;
+        width:70%;
+        padding: 0 20px;
+    }
+
+    .kiss-custom .recent-posts-content .entry-title {
+        width:100%;
+    }
+
+}
+
+@media only screen and (max-device-width: 420px) {
+
+    .kiss-custom .recent-posts-content {
+        float:none;
+        width:100%;
+        padding: 0;
+        padding-top:20px;
+    }
+
+    .kiss-custom .fusion-flexslider {
+        width:100%;
+        float:none;
+    }
+
+    .kisstable {
+        display:inline-block;
+    }
+
+}
+
+
+.pipeline {
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.pipeline table {
+    width: 100%;
+    table-layout: fixed;
+    overflow-wrap: break-word;
+}
+
+.pipeline img {
+    max-width: 80px;
+}
+
+.pipeline .tr-txt h4 {
+            transform: rotate(-90deg);
+            font-size:16px;
+            margin: 0;
+        }
+
+.pipeline .ta:not(.tr-txt) h4 {
+    font-size:14px;
+    margin: 0;
+}
+
+.heading {
+
+}
+
+.table-col {
+
+}
+
+.immunology thead, .neurology thead {
+ 
+}
+
+.pipeline {
+    overflow-y: scroll;
+}
+
+.pipeline-inner {
+    min-width: 1440px;
+}
+
+.pipeline th {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    height: 60px;
+    border: 1px solid #fff;
+    width: 9%;
+}
+
+.pipeline th.qol {
+    width: 18%;
+}
+
+.pipeline th.blank {
+    background-color: transparent;
+}
+
+.pipeline th.indication {
+    border-top-left-radius: 20px;
+}
+
+.pipeline th.commerce {
+    border-top-right-radius: 20px;
+}
+
+.pipeline th.qol, .pipeline th.spec-serv, .pipeline th.tech-improv {
+    height:  30px;
+}
+
+.pipeline th.spec-serv, .pipeline th.tech-improv {
+    font-size: 7px;
+    background-color: #4E4D4D;
+}
+
+.pipeline tr td {
+    width:  9%;
+    height: 64px;
+    text-align: center;
+    font-size: 11px;
+    padding: 4px;
+    border:1px solid #F8F8F8;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.pipeline tr td.na {
+    background: #E2E2E2;
+    font-weight: 600;
+    font-size: 14px;
+    color: #787878;
+
+}
+
+.pipeline tr td.fill {
+    background-color: #1CCFC9;
+}
+
+.pipeline tr td.chamfer span {
+    position: relative;
+      float: left;
+      width: 100%;
+      height: 100%;
+}
+
+.pipeline tr td.fill.chamfer span::after {
+    width: 0px;
+    height: 0px;
+    background: #fff;
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    border-top: 16px solid #1CCFC9;
+    border-right: 16px solid white;
+    border-left: 16px solid #1CCFC9;
+    border-bottom: 16px solid white;
+    right: -4px;
+}
+.pipeline tr td.fill.chamfer span::before {
+    width: 0px;
+    height: 0px;
+    background: #fff;
+    content: '';
+    position: absolute;
+    top: -4px;
+    border-top: 16px solid white;
+    border-left: 16px solid #1CCFC9;
+    border-right: 16px solid white;
+    border-bottom: 16px solid #1CCFC9;
+    right: -4px;
+}
+
+.pipeline .table-space td {
+    height: 5px;
+    border: none;
+}
+
+.pipeline td.indication {
+    width: 9%;
+}
+
+.pipeline .ta {
+    background-color: #000000;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.pipeline td.ta h4 {
+    color: #FFFFFF !important;
+    font-size: 16px;
+    text-align: center;
+}
+
+ /* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  cursor: pointer;
+    margin-top: 50px;
+}
+
+.collapsible:hover .fa-fusion-box {
+    background-color: #1ccfc9 !important;
+    border-color: #1ccfc9 !important;
+}
+
+.collapsible:hover h3 {
+    color: #1ccfc9 !important;
+}
+
+.collapsible .fa-fusion-box {
+    background-color: #333333;
+    border-color: #333333;
+    text-align: center;
+    font-family: IcoMoon;
+    padding: 4.5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.collapsible .fa-fusion-box::before {
+    font-family: IcoMoon;
+    content: "\e61d";
+    font-style: normal;
+    line-height: normal;
+    font-size: 23px;
+    display: grid;
+    color: #fff;
+}
+.collapsible.active .fa-fusion-box {
+    background-color: #1ccfc9 !important;
+    border-color: #1ccfc9 !important;
+}
+
+.collapsible.active h3 {
+    color: #1ccfc9 !important;
+}
+
+.collapsible.active .fa-fusion-box::before {
+    content: "\e61c";
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+} 

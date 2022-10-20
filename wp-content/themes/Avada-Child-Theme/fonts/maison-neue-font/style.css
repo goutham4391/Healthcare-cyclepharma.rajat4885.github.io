@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'maison-neue';
+    src: url('maisonneuebook-webfont.woff2') format('woff2'),
+         url('maisonneuebook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'maison-neue';
+    src: url('maison-neue-bold-webfont.woff2') format('woff2'),
+         url('maison-neue-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'maison-neue';
+    src: url('maison-neue-light-webfont.woff2') format('woff2'),
+         url('maison-neue-light-webfont.woff') format('woff');
+    font-weight: light;
+    font-style: normal;
+
+}
